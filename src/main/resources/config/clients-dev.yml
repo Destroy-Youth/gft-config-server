@@ -1,7 +1,7 @@
 server:
   port: 8103
   servlet:
-    context-path: /clients
+    context-path: /api
 
 clients:
   allow-active: false

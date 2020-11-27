@@ -1,7 +1,7 @@
 server:
   port: 8104
   servlet:
-    context-path: /accounts
+    context-path: /api
 
 accounts:
   allow-active: false

@@ -1,0 +1,20 @@
+server:
+  port: 8103
+  servlet:
+    context-path: /clients
+
+clients:
+  allow-active: false
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+    profiles:
+      active: dev
